@@ -1,1 +1,1 @@
-npm --prefix ~/dummy-express start
+npm --prefix ~/ start
