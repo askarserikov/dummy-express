@@ -1,1 +1,1 @@
-npm --prefix /home/ec2-user/ start
+npm --prefix /home/ec2-user/ start -d
