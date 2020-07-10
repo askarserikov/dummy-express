@@ -5,7 +5,7 @@ files:
     destination: /home/ec2-user/dummy
 hooks:
   ApplicationStop:
-    - location: scripts/
+    - location: scripts/stop_server.sh
   AfterInstall:
     - location: scripts/install_dependencies.sh
       timeout: 300
