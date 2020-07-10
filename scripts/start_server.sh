@@ -1,1 +1,1 @@
-npm --prefix /home/ec2-user/ start -d
+sudo forever start /home/ec2-user/dummy/bin/www

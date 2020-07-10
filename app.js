@@ -38,4 +38,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+process.title = "dummy";
+
 module.exports = app;

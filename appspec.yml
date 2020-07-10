@@ -2,8 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/
+    destination: /home/ec2-user/dummy
 hooks:
+  ApplicationStop:
+    - location: scripts/
   AfterInstall:
     - location: scripts/install_dependencies.sh
       timeout: 300
